@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"enum":["WinitAppError"],"mod":["app_listener","application"],"type":["WinitAppResult"]};

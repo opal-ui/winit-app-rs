@@ -1,0 +1,11 @@
+[package]
+name = "sample"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+winit_app = { path="../lib" }
+winit = { version = "0.31.0-beta.2", features = ["android-native-activity"] }
+log = "0.4"
+simple_logger="5"
+
