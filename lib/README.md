@@ -49,3 +49,6 @@ fn launch_app() -> Result<(), Box<dyn std::error::Error>> {
 
 ## Credits
 
+* Winit Documentation and Examples
+
+https://docs.rs/winit/latest/winit/
