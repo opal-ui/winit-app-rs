@@ -7,7 +7,7 @@ keywords = ["rust-windowing", "graphics", "winit"]
 description = "A starter package to get started with winit windowing library"
 repository = "https://github.com/opal-ui/winit-app-rs"
 readme = "README.md"
-homepage = "https://serde.rs"
+homepage = "https://opal-ui.github.io/winit-app-rs/"
 categories = ["command-line-utilities", "rust-windowing-tools"]
 
 [lib]
