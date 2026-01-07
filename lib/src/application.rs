@@ -4,7 +4,7 @@
 //!
 //! ```
 //! use winit::{event::WindowEvent, window::WindowAttributes};
-//! use winit_app::{app_listener::AppWindowEvent, application::Application};
+//! use winit_app::application::Application;
 //!
 //! fn launch_app() -> Result<(), Box<dyn std::error::Error>> {
 //!     let winit_app = Application::new();
@@ -37,7 +37,7 @@ use crate::{
 ///
 /// ```
 /// use winit::{event::WindowEvent, window::WindowAttributes};
-/// use winit_app::{app_listener::AppWindowEvent, application::Application};
+/// use winit_app::application::Application;
 ///
 /// fn launch_app() -> Result<(), Box<dyn std::error::Error>> {
 ///     let winit_app = Application::new();
