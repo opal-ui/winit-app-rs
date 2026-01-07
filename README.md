@@ -1,3 +1,5 @@
+[`winit_app`](https://crates.io/crates/winit_app) [![crates.io](https://img.shields.io/crates/v/winit_app.svg)](https://crates.io/crates/winit_app)
+
 # Winit App Starter Project
 
 This project can be used as a start launching pad for launching apps based on the `winit` library  
