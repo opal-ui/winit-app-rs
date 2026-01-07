@@ -22,6 +22,10 @@ jobs:
         working-directory: ./lib
         run: cargo test --all-features
 
+      - name: Run cargo clippy
+        working-directory: ./lib
+        run: cargo clippy --all-features
+
       - name: Run cargo doc
         working-directory: ./lib
         run: cargo d --no-deps --all-features
