@@ -1,0 +1,1 @@
+rd_("AjContains the success valueAhContains the error valueAoReturns the argument unchanged.00BaCalls <code>U::from(self)</code>.00DhThis library helps get started with the <code>winit</code> library , \xe2\x80\xa6BlCreate a new <code>winit</code> application.CnWinitAppError indicates the possible errors from the winit \xe2\x80\xa6BiSets the control flow of this application")

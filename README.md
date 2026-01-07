@@ -7,6 +7,12 @@ This project can be used as a start launching pad for launching apps based on th
 
 ## Usage
 
+```toml
+[dependencies]
+winit_app = "0.31.1"
+```
+
+
 See [lib](lib/README.md) for more details
 
 ## Developer

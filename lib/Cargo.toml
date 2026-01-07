@@ -1,6 +1,6 @@
 [package]
 name = "winit_app"
-version = "0.31.0"
+version = "0.31.1"
 edition = "2024"
 license = "MIT"
 keywords = ["rust-windowing", "graphics", "winit"]
@@ -17,16 +17,3 @@ name="winit_app"
 winit = { version = "0.31.0-beta.2", features = ["android-native-activity"] }
 thiserror = "2.0.17"
 log="0.4"
-
-[target.'cfg(target_arch = "wasm32")'.dependencies]
-console_error_panic_hook = "0.1.6"
-console_log = "1.0"
-wgpu = { version = "28", features = ["webgl"]}
-wasm-bindgen = "0.2"
-wasm-bindgen-futures = "0.4.30"
-web-sys = { version = "0.3", features = [
-    "Document",
-    "Window",
-    "Element",
-]}
- 
