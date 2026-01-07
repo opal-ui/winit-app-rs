@@ -22,19 +22,9 @@ use crate::{
 ///     winit_app.run(
 ///        WindowAttributes::default().with_title("Sample"),
 ///        |app_window_event| match app_window_event {
-///            AppWindowEvent::NewWindow(_window) => {
-///                // TODO: Do something with this window
-///                
+///            _ => {
+///                     // TODO: Handle those events
 ///            }
-///            AppWindowEvent::OnWindowEvent(event, event_loop) => match event {
-///                WindowEvent::CloseRequested => {
-///                   // Just a default handler to exit the event_loop when window is being closed  
-///                    event_loop.exit();
-///                }
-///                _ => {
-///                    // Handle all other window events
-///                }
-///            },
 ///        },
 ///    )?;
 ///    Ok(())
