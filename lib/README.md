@@ -1,4 +1,4 @@
-
+[`winit_app`](https://crates.io/crates/winit_app) [![crates.io](https://img.shields.io/crates/v/winit_app.svg)](https://crates.io/crates/winit_app)
 # Winit App Starter Project
 
 ```toml
