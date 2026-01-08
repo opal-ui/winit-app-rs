@@ -1,9 +1,13 @@
+//! Module to help deal with events emitted by `Application`
+//! 
 use log::warn;
 use winit::application::ApplicationHandler;
 use winit::event::WindowEvent;
 use winit::event_loop::ActiveEventLoop;
 use winit::window::{Window, WindowAttributes, WindowId};
 
+/// `AppWindowEvent` represents the event emitted by Application based
+/// on the listener interface
 pub enum AppWindowEvent<'a> {
     NewWindow(Box<dyn Window>),
     OnWindowEvent(WindowEvent, &'a dyn ActiveEventLoop),

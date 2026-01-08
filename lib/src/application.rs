@@ -1,4 +1,4 @@
-//! Create a new `winit` application.
+//! Module to help create a new `winit` application.
 //!
 //! # Example
 //!
