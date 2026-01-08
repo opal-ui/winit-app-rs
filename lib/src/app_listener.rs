@@ -1,5 +1,5 @@
 //! Module to help deal with events emitted by `Application`
-//! 
+//!
 use log::warn;
 use winit::application::ApplicationHandler;
 use winit::event::WindowEvent;
