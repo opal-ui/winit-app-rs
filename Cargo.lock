@@ -1732,7 +1732,7 @@ dependencies = [
 
 [[package]]
 name = "winit_app"
-version = "0.31.1"
+version = "0.31.2"
 dependencies = [
  "log",
  "thiserror 2.0.18",
