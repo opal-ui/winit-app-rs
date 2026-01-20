@@ -7,7 +7,7 @@
 //!  
 //! ```
 //! use winit::{event::WindowEvent, window::WindowAttributes};
-//! use winit_app::{app_listener::AppWindowEvent, application::Application};
+//! use winit_app::{AppWindowEvent, Application};
 //!
 //! fn launch_app() -> Result<(), Box<dyn std::error::Error>> {
 //!     let winit_app = Application::new();
@@ -35,8 +35,11 @@
 //! ```
 //!
 //!
-pub mod app_listener;
-pub mod application;
+mod app_listener;
+mod application;
+
+pub use app_listener::AppWindowEvent;
+pub use application::Application;
 
 use thiserror::Error;
 use winit::error::EventLoopError;
