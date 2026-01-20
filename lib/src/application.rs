@@ -1,3 +1,26 @@
+//! Module to help create a new `winit` application.
+//!
+//! # Example
+//!
+//! ```
+//! use winit::{event::WindowEvent, window::WindowAttributes};
+//! use winit_app::Application;
+//!
+//! fn launch_app() -> Result<(), Box<dyn std::error::Error>> {
+//!     let winit_app = Application::new();
+//!
+//!     winit_app.run(
+//!        WindowAttributes::default().with_title("Sample"),
+//!        |app_window_event| match app_window_event {
+//!            _ => {
+//!                     // TODO: Handle those events
+//!            }
+//!        },
+//!    )?;
+//!    Ok(())
+//! }
+//! ```
+
 use winit::{
     event_loop::{ControlFlow, EventLoop},
     window::WindowAttributes,
@@ -14,7 +37,7 @@ use crate::{
 ///
 /// ```
 /// use winit::{event::WindowEvent, window::WindowAttributes};
-/// use winit_app::{app_listener::AppWindowEvent, application::Application};
+/// use winit_app::Application;
 ///
 /// fn launch_app() -> Result<(), Box<dyn std::error::Error>> {
 ///     let winit_app = Application::new();

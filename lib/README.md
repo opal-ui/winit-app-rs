@@ -18,7 +18,7 @@ This project can be used as a start quick launching pad based on the `winit` lib
 
 ```rust
 use winit::{event::WindowEvent, window::WindowAttributes};
-use winit_app::{app_listener::AppWindowEvent, application::Application};
+use winit_app::{AppWindowEvent, Application};
 
 fn launch_app() -> Result<(), Box<dyn std::error::Error>> {
     let winit_app = Application::new();
@@ -43,7 +43,6 @@ fn launch_app() -> Result<(), Box<dyn std::error::Error>> {
    )?;
    Ok(())
 }
-
 
 ```
 
