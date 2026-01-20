@@ -11,7 +11,7 @@ This project can be used as a start launching pad for launching apps based on th
 
 ```toml
 [dependencies]
-winit_app = "0.31.1"
+winit_app = "0.31.2"
 ```
 
 

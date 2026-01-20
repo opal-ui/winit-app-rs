@@ -3,7 +3,7 @@
 
 ```toml
 [dependencies]
-winit_app = "0.31.1"
+winit_app = "0.31.2"
 ```
 
 This Rust library `winit_app` represents the code to get started with `winit` Rust windowing library.
