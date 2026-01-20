@@ -13,7 +13,10 @@ homepage = "https://opal-ui.github.io/winit-app-rs/"
 [lib]
 name="winit_app"
 
+[features]
+default=["winit"]
+enable-android = ["winit", "winit/android-native-activity" ]
 [dependencies]
-winit = { version = "0.31.0-beta.2", features = ["android-native-activity"] }
+winit = { version = "0.31.0-beta.2", optional=true }
 thiserror = "2.0.17"
 log="0.4"

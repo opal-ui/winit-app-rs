@@ -1,7 +1,7 @@
 use log::LevelFilter;
 use simple_logger::SimpleLogger;
 use winit::{event::WindowEvent, window::WindowAttributes};
-use winit_app::{app_listener::AppWindowEvent, application::Application};
+use winit_app::{AppWindowEvent, Application};
 
 use log::info;
 
